@@ -31,5 +31,10 @@ namespace WindowsFormApplication
         {
             txtResultado.Text = "Olá, mundo !";
         }
+
+        private void btnAbrir_Click(object sender, EventArgs e)
+        {
+            new FrmShow().Show();
+        }
     }
 }

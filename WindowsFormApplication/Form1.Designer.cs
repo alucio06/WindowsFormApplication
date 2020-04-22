@@ -31,6 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtResultado = new System.Windows.Forms.TextBox();
             this.btnOk = new System.Windows.Forms.Button();
+            this.btnAbrir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -61,11 +62,22 @@
             this.btnOk.UseVisualStyleBackColor = true;
             this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
+            // btnAbrir
+            // 
+            this.btnAbrir.Location = new System.Drawing.Point(16, 149);
+            this.btnAbrir.Name = "btnAbrir";
+            this.btnAbrir.Size = new System.Drawing.Size(151, 45);
+            this.btnAbrir.TabIndex = 3;
+            this.btnAbrir.Text = "Abrir nova janela";
+            this.btnAbrir.UseVisualStyleBackColor = true;
+            this.btnAbrir.Click += new System.EventHandler(this.btnAbrir_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(490, 375);
+            this.Controls.Add(this.btnAbrir);
             this.Controls.Add(this.btnOk);
             this.Controls.Add(this.txtResultado);
             this.Controls.Add(this.label1);
@@ -82,6 +94,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtResultado;
         private System.Windows.Forms.Button btnOk;
+        private System.Windows.Forms.Button btnAbrir;
     }
 }
 
